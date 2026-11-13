@@ -42,3 +42,5 @@ ethos_drive/*.mkv
 .DS_Store
 Thumbs.db
 .vscode/
+
+ethos_drive/*.code-workspace
