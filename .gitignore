@@ -1,0 +1,44 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, coverage, and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data and generated exports
+ethos_drive/data/*.sqlite3
+ethos_drive/data/*.db
+ethos_drive/*.csv
+ethos_drive/*.log
+
+# Downloaded model weights and local media
+ethos_drive/*.pt
+ethos_drive/*.onnx
+ethos_drive/*.mp4
+ethos_drive/*.avi
+ethos_drive/*.mov
+ethos_drive/*.mkv
+
+# Streamlit and editor/OS files
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+.vscode/
